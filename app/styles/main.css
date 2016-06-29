@@ -5,79 +5,41 @@
   padding: 0.2em 0;
 }
 
-body {
-  padding: 0;
+html, body {
+  height: 100%;
+  background-image: url("../images/test_background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+img.navbar-logo {
+  width: 60px;
+  height: auto;
+  vertical-align: top;
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
+/*Bootstrap navbar styling */
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: #A0A0A0;
+  height: 0px;
 }
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: rgba(240, 150, 0, 0.8);
 }
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
+.navbar.center .navbar-inner {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
 }
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+.navbar.center .navbar-inner .nav {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
 }
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+.navbar .navbar-brand {
+  line-height: 0;
+  margin-top: -15px;
 }
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
+/* Bootstrap navbar styling end */
