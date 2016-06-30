@@ -1,0 +1,16 @@
+div.about {
+  padding-left: 7%;
+}
+
+span.highlight {
+  color: #FFFFFF;
+}
+
+span.underlight {
+  opacity: 0.6;
+}
+
+div.project-container {
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+}

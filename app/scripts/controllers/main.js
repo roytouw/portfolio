@@ -1,17 +1,8 @@
 'use strict';
 
 /**
- * @ngdoc function
- * @name portfolioApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the portfolioApp
+  Main Controller.
  */
-angular.module('portfolioApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('portfolioApp').controller('MainCtrl', ['$scope', function($scope) {
+  $scope.class = 'btn-linkedin-hover';
+}]);

@@ -14,6 +14,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/landing.css">
     <!-- endbuild -->
   </head>
   <body ng-app="portfolioApp">
@@ -43,7 +44,7 @@
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
               <li><a href="projects">Projects</a></li>
-              <li><a href="cv">Curriculum Vitae</a></li>
+              <li><a href="cv">Skills</a></li>
               <li><a href="contact">Contact</a></li>
             </ul>
           </div>
@@ -53,15 +54,16 @@
     <!-- End of navigation bar -->
 
     <!-- View container -->
-    <!--<div class="container">
-    <div ng-view=""></div>
-    </div>-->
+    <div class="container">
+      <div ng-view=""></div>
+    </div>
     <!-- End of View Container -->
 
     <!-- Footer -->
     <footer>
       <button class="btn btn-linkedin btn-social"><i class="fa fa-linkedin"></i></button>
       <button class="btn btn-github btn-social"><i class="fa fa-github"></i></button>
+      <button class="btn btn-envelope btn-social"><i class="fa fa-envelope"></i></button>
       <span class="copyright">
         Copyright Roy Touw
       </span>
@@ -98,6 +100,8 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/directives/project.js"></script>
+        <script src="scripts/controllers/project.js"></script>
         <!-- endbuild -->
 </body>
 </html>
