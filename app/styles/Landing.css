@@ -4,13 +4,49 @@ div.about {
 
 span.highlight {
   color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 span.underlight {
-  opacity: 0.6;
+  opacity: 0.4;
+  font-weight: bold;
+  color: #FF0000;
+  text-shadow: 1px 1px rgba(0, 0, 0, 1);
 }
 
 div.project-container {
   height: 200px;
-  background-color: rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+ h2 {
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+ }
+
+h3 {
+  padding-bottom: 0px;
+  margin-bottom: -3px;
+  color: #000000;
+}
+
+div.floating-me {
+  padding-top: 30px;
+}
+
+img.project-thumbnail {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 130px;
+  display: block;
+  margin: auto;
+}
+
+div.project-container h2 {
+  margin: 0px;
+  padding: 0px;
 }

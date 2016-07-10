@@ -5,28 +5,25 @@
 
 angular.module('portfolioApp').controller('ProjectCtrl', ['$scope', '$interval', function($scope, $interval) {
   $scope.projectIterator = 0;
-  $scope.current = {
-    title: 'Multopy',
-    image: 'plaatjeMultopy'
-  };
+  $scope.current;
 
   $scope.projects = [
     {
       title: 'Multopy',
-      image: 'plaatje'
+      image: 'images/multopy_screencap.png'
     }, {
       title: 'Sesam',
-      image: 'plaatje2'
+      image: 'images/sesam_screencap.png'
     }, {
       title: 'WFPCS',
-      image: 'plaatje3'
+      image: 'images/wfpcs_screencap.png'
     }
   ];
 
   $scope.startCycling = function() {
     $interval(function() {
       $scope.nextProject();
-    }, 7000);
+    }, 10000);
   };
 
   $scope.nextProject = function() {
@@ -40,6 +37,7 @@ angular.module('portfolioApp').controller('ProjectCtrl', ['$scope', '$interval',
       $scope.projectIterator = 0;
     return $scope.projectIterator;
   };
+  $scope.nextProject(); //To load the current project with the first project in array.
   $scope.startCycling();
 
 }]);
