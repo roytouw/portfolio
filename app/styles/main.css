@@ -95,6 +95,11 @@ footer {
   color: red !important;
 }
 
+.btn-twitter {
+  background-color: #00b3ee;
+  color: #3ct;
+}
+
 .btn-github {
   background-color: #444444;
   color: #FFFFFF;

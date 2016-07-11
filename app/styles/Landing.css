@@ -32,6 +32,7 @@ h1.landing {
   color: #FF8300;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
   margin-bottom: 25px;
+  margin-left: 15px;
   font-size: 45pt;
   font-family: cartoon;
 }
