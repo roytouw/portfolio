@@ -1,5 +1,6 @@
 div.about {
   padding-left: 7%;
+  padding-top: 0px;
 }
 
 span.highlight {
@@ -15,22 +16,38 @@ span.underlight {
   text-shadow: 1px 1px rgba(0, 0, 0, 1);
 }
 
-div.project-container {
-  height: 200px;
-  color: #FFFFFF;
-  background-color: rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+div.project-container-main {
+  margin-top: -70px;
 }
 
- h2 {
+div.project-container {
+  height: 200px;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 2px;
+}
+
+h1.landing {
+  color: #FF8300;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  margin-bottom: 25px;
+  font-size: 45pt;
+  font-family: cartoon;
+}
+
+h2 {
    padding-bottom: 0px;
    margin-bottom: 0px;
  }
 
-h3 {
+h3.landing {
   padding-bottom: 0px;
-  margin-bottom: -3px;
-  color: #000000;
+  color: #FF8300;
+  font-size: 21pt;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 4px;
+  font-family: cartoon;
 }
 
 div.floating-me {
