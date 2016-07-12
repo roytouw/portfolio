@@ -21,6 +21,7 @@ div.project-container-main {
 }
 
 div.project-container {
+  cursor: pointer;
   height: 200px;
   color: #000;
   background-color: rgba(255, 255, 255, 0.1);
@@ -30,10 +31,10 @@ div.project-container {
 
 h1.landing {
   color: #FF8300;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
   margin-bottom: 25px;
   margin-left: 15px;
-  font-size: 45pt;
+  font-size: 40pt;
   font-family: cartoon;
 }
 
@@ -46,7 +47,7 @@ h3.landing {
   padding-bottom: 0px;
   color: #FF8300;
   font-size: 21pt;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
   margin-bottom: 4px;
   font-family: cartoon;
 }

@@ -40,4 +40,8 @@ angular.module('portfolioApp').controller('ProjectCtrl', ['$scope', '$interval',
   $scope.nextProject(); //To load the current project with the first project in array.
   $scope.startCycling();
 
+  $scope.openProject = function() {
+    alert('Hey');
+  };
+
 }]);
