@@ -23,7 +23,7 @@ angular.module('portfolioApp').controller('ProjectCtrl', ['$scope', '$interval',
   $scope.startCycling = function() {
     $interval(function() {
       $scope.nextProject();
-    }, 10000);
+    }, 6000);
   };
 
   $scope.nextProject = function() {

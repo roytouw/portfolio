@@ -3,6 +3,11 @@
   src: url(comic.otf);
 }
 
+@font-face {
+  font-family: modern;
+  src: url(modeka.otf);
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -28,8 +33,7 @@ img.navbar-logo {
 .navbar-default {
   background-color: transparent;
   border: 0px;
-  font-size: 18pt;
-  font-family: "Lucida Bright";
+  font-family: modern;
   height: 0px;
 }
 
@@ -38,7 +42,7 @@ img.navbar-logo {
 .navbar-default .navbar-nav > li > a:active,
 .navbar-default .navbar-nav > .active > a:active {
   color: #FFF;
-  font-size: 17pt;
+  font-size: 25pt;
   background: transparent;
 }
 
