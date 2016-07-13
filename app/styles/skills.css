@@ -24,14 +24,14 @@ div.progress_bar {
   width: 100px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.5);
-  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 span.progress {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #FF8300;
+  background-color: rgba(255, 131, 0, 1);
   animation-name: load;
   animation-duration: 4s;
   animation-fill-mode: forwards;

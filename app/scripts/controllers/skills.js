@@ -27,7 +27,17 @@ angular.module('portfolioApp').controller('SkillsCtrl', ['$scope', function($sco
       id: $scope.get_id(),
       title: 'CSS3',
       experience: 4
+    }, {
+      id: $scope.get_id(),
+      title: 'GIT',
+      experience: 3
+    }, {
+      id: $scope.get_id(),
+      title: 'Yeoman',
+      experience: 2
     }
   ];
+
+  $scope.half = Math.ceil($scope.skillset.length / 2);
 
 }]);
