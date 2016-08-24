@@ -14,27 +14,49 @@ angular.module('portfolioApp').controller('SkillsCtrl', ['$scope', function($sco
     {
       id: $scope.get_id(),
       title: 'Java',
-      experience: 3
+      experience: 60,
+      hover: 'Experienced'
     }, {
       id: $scope.get_id(),
       title: 'C++',
-      experience: 2
+      experience: 40,
+      hover: 'Novice'
+    }, {
+      title: 'Python',
+      experience: 50
     }, {
       id: $scope.get_id(),
       title: 'HTML5',
-      experience: 4
+      experience: 70,
+      hover: 'Advanced'
     }, {
       id: $scope.get_id(),
       title: 'CSS3',
-      experience: 4
+      experience: 60
+    }, {
+      title: 'AngularJS',
+      experience: 70
+    }, {
+      title: 'MVC',
+      experience: 80
     }, {
       id: $scope.get_id(),
       title: 'GIT',
-      experience: 3
+      experience: 40
     }, {
       id: $scope.get_id(),
       title: 'Yeoman',
-      experience: 2
+      experience: 30
+    }, {
+      id: $scope.get_id(),
+      title: 'Bower',
+      experience: 70,
+      hover: 'Know some stuff.'
+    }, {
+      id: $scope.get_id(),
+      title: 'Pokémon',
+      experience: 100,
+      hover: 'Master'
     }
   ];
 

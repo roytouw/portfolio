@@ -29,6 +29,10 @@ angular
         controller: 'SkillsCtrl',
         controllerAs: 'skills'
       })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',

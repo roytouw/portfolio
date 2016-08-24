@@ -2,14 +2,16 @@
   <div class="col-md-offset-3 header_container">
     <h1 class="skills_header">Skills</h1>
   </div>
+  <div class="col-md-offset-3 skills_introduction">
+    These are the skills I aquired during my recent years of developing bla bla bla...
+  </div>
 </div>
 <div class="row">
   <div class="col-md-2 col-md-offset-3">
     <skill ng-repeat="skill in skillset | limitTo: half:0"></skill>
   </div>
 
-  <div class="col-md-2">
+  <div class="col-md-2 col-md-offset-1">
     <skill ng-repeat="skill in skillset | limitTo: skillset.length: half"></skill>
   </div>
-  <button ng-click="test()">test</button>
 </div>
