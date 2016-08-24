@@ -54,9 +54,9 @@ angular.module('portfolioApp').controller('SkillsCtrl', ['$scope', function($sco
       hover: 'Know some stuff.'
     }, {
       id: $scope.get_id(),
-      title: 'Pokémon',
+      title: 'DB Design',
       experience: 100,
-      hover: 'Master'
+      hover: 'Master.'
     }
   ];
 
